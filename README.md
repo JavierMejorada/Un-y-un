@@ -1,22 +1,11 @@
-# Invitación XV años de Yunuen
+INVITACIÓN XV YUNUEN — CARPETA ÚNICA
 
-Sitio web estático: HTML, CSS y JavaScript en un solo archivo. No necesita compilación ni dependencias.
+Sube TODOS los archivos de esta carpeta directamente a la raíz de tu repositorio de GitHub. En Netlify, importa el repositorio sin comando de compilación.
 
-## Publicación gratis
+index.html: invitación interactiva
+londres-portada.jpg, big-ben-dorado.jpg, westminster-noche.jpg: fotografías tomadas de las referencias que proporcionaste
+musica-original.mp3: pista instrumental ORIGINAL incluida, NO es la canción comercial Memories de David Guetta.
 
-1. Sube el contenido de esta carpeta a un repositorio de GitHub (index.html debe quedar en la raíz).
-2. En Netlify: Add new project → Import an existing project → GitHub → selecciona el repositorio.
-3. Build command: dejar vacío. Publish directory: `.` (punto).
-4. Publica y comparte la URL de Netlify.
+Para usar Memories, consigue un archivo MP3 con los permisos correspondientes, colócalo en esta misma carpeta y cambia musica-original.mp3 por el nombre del archivo en index.html.
 
-También puedes arrastrar esta carpeta a Netlify Drop para publicar sin GitHub.
-
-## Música
-
-Por derechos de autor, no se incluye la canción. Si tienes permiso de uso, agrega `assets/memories.mp3` y el botón flotante la reproducirá después de que el invitado lo toque. Los navegadores bloquean el autoplay con sonido.
-
-## Personalización
-
-Modifica textos, horarios y enlaces de Google Maps en `index.html`. La imagen `assets/londres.jpg` proviene de la referencia visual proporcionada. Comprueba que tienes permiso para publicarla.
-
-La cuenta regresiva usa la zona horaria UTC−6 de México. Los enlaces de mapas son búsquedas, no pines confirmados: verifica el lugar antes de compartir.
+Nota: comprueba los derechos de uso de las fotografías antes de publicar.
