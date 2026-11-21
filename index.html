@@ -91,8 +91,9 @@ h2{font:400 clamp(2.4rem,11vw,3.6rem)/1 Anton,Impact,sans-serif;letter-spacing:.
 .photo .cap{position:absolute;inset:auto 0 0 0;padding:3.5rem 1rem 1.4rem;font:clamp(2.1rem,9vw,3.2rem) 'Great Vibes',cursive;color:#fff;text-shadow:0 3px 16px #3b0027;background:linear-gradient(transparent,#5e1244cc)}
 
 /* cuenta regresiva */
-.count{padding-bottom:0;background:var(--blush)}
+.count{padding-bottom:18px;background:var(--blush)}
 .count:before{content:'';position:absolute;top:0;left:0;right:0;height:18px;background:linear-gradient(135deg,var(--plum) 25%,transparent 25%) -9px 0,linear-gradient(225deg,var(--plum) 25%,transparent 25%) -9px 0;background-size:18px 18px}
+.count:after{content:'';position:absolute;bottom:0;left:0;right:0;height:18px;background:linear-gradient(45deg,var(--plum) 25%,transparent 25%) -9px 0,linear-gradient(315deg,var(--plum) 25%,transparent 25%) -9px 0;background-size:18px 18px}
 .count .script{color:var(--plum);font-size:clamp(3rem,13vw,4.4rem)}
 .clock{display:flex;justify-content:center;align-items:flex-start;gap:.2rem;margin:.4rem 0 .6rem}
 .clock div{min-width:62px}
@@ -102,8 +103,6 @@ h2{font:400 clamp(2.4rem,11vw,3.6rem)/1 Anton,Impact,sans-serif;letter-spacing:.
 @keyframes blink{50%{opacity:.2}}
 .road{position:relative;height:220px;margin-top:1rem}
 .road .sky{position:absolute;left:0;bottom:0;width:100%;opacity:.9}
-.road .bus{position:absolute;bottom:6px;width:120px;animation:drive 13s linear infinite}
-@keyframes drive{from{transform:translateX(-140px)}to{transform:translateX(620px)}}
 
 /* detalles */
 .cards{display:grid;gap:1.3rem}
@@ -199,7 +198,6 @@ h2{font:400 clamp(2.4rem,11vw,3.6rem)/1 Anton,Impact,sans-serif;letter-spacing:.
   </div>
   <div class="road" aria-hidden="true">
     <img class="sky" src="skyline-londres-lineas.png" alt="" width="930" height="200">
-    <img class="bus" src="icono-bus-londres.png" alt="" width="280" height="190">
   </div>
 </section>
 
@@ -238,12 +236,6 @@ h2{font:400 clamp(2.4rem,11vw,3.6rem)/1 Anton,Impact,sans-serif;letter-spacing:.
       </article>
     </div>
   </div>
-</section>
-
-<!-- FOTO 2 -->
-<section class="photo" aria-label="Vista del Palacio de Westminster">
-  <img src="westminster-rosa.webp" alt="Palacio de Westminster y puente de Londres iluminados de rosa" loading="lazy" width="1672" height="941">
-  <div class="cap">London is calling ♡</div>
 </section>
 
 <!-- VESTIMENTA -->
